@@ -878,6 +878,8 @@ delete person.name; // Won't delete the 'name' property
 Define or modify properties of an object with more control.
 Every property of an object can have 3 property attributes, which can be used to provide some property.
 
+- To check these 3 properties :: `Object.getOwnPropertyDescriptors(<obj>)`
+
 1. **`writable`**:
 
 - Determines if a property's value can be changed using assignment.
